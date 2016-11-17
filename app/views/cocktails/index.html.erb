@@ -1,8 +1,14 @@
-
-<ul class="list-unstyled">
-<% @cocktails.each do |cocktail | %>
-<li><%= cocktail.name %></li>
+ <%= render 'shared/navbar' %>
 
 
-<% end %>
-</ul>
+
+
+<h2 class="text-center">Our cocktails</h2>
+  <% @cocktails.each do |r| %>
+    <%= render "shared/card", cocktail: r %>
+  <% end %>
+
+</div>
+
+
+

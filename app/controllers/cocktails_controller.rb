@@ -5,6 +5,7 @@ class CocktailsController < ApplicationController
 
   def show
     @cocktail = Cocktail.find(params[:id])
+    @dose = Dose.new
   end
 
   def new
@@ -16,6 +17,8 @@ class CocktailsController < ApplicationController
     @cocktail.save
     redirect_to cocktails_path
   end
+
+
 
 private
 

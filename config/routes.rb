@@ -6,3 +6,4 @@ resources :cocktails do
 
   end
 end
+
