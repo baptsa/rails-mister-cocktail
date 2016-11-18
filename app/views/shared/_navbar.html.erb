@@ -1,8 +1,9 @@
 <div class="navbar-wagon">
   <!-- Logo -->
-  <a href="/" class="navbar-wagon-brand">
-    <img src="images/lewagon.png" />
-  </a>
+<%= link_to '/' do %>
+    <%= image_tag 'logo.png', width: 35, height: 40, alt: 'logo' %>
+<% end %>
+
 
   <!-- Right Navigation -->
   <div class="navbar-wagon-right hidden-xs hidden-sm">
@@ -14,8 +15,6 @@
         <i class="fa fa-search"></i>
       </button>
     </form>
-
-
 
 
 

@@ -1,0 +1,43 @@
+.media {
+  display: flex;
+}
+.media-body {
+  flex: 1 1 auto;
+  padding: 20px;
+
+}
+
+.media-body h2 {
+  color: #C0C0C0;
+}
+
+.media-body p {
+  color: #828282;
+}
+
+.media-body img {
+  width: 100%;
+
+}
+.media-aside {
+  flex: 0 0 400px;
+  padding: 30px;
+  align-self: stretch;
+  background: #F8F7F7;
+  border-left: 1px solid #f0efef;
+  margin-right: 35px;
+  margin-top: 43px;
+}
+.media-section {
+  margin: 40px auto;
+}
+.media-section:first-child {
+  margin-top: 0;
+}
+.media-section:last-child {
+  margin-bottom: 0;
+}
+
+h4 {
+  color: #07D187;
+}

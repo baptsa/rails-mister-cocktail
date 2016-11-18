@@ -1,23 +1,32 @@
  <%= render 'shared/navbar' %>
-
-<h3 class="text-center"><%= @cocktail.name %></h3>
-
-
-
-<h4 class="text-center">Add a dose!</h4>
+ <%= render "shared/media-show" %>
 
 
 
-<div class="container">
-  <div class="row">
-    <div class="col-sm-offset-4 col-sm-4">
-      <%= simple_form_for [@cocktail, @dose] do |f| %>
-        <%= f.input :description %>
-        <%= f.input :ingredient_id, collection: Ingredient.all, prompt: "Select Ingredient" %>
-        <%= f.button :submit, label: "add a dose", class: "btn btn-primary" %>
-      <% end %>
-      </div>
-  </div>
-</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
